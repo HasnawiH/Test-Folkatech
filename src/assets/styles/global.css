@@ -1,0 +1,33 @@
+.product-card {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  border: 1px solid #ECECEC;
+  cursor: pointer;
+}
+
+.product-list-container{
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.single-line-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 250px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.text-title{
+  color: #730C07;
+  font-weight: 700;
+  font-size: 26px;
+}
